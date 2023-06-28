@@ -96,7 +96,7 @@ namespace Project19
         /// </summary>
         /// <param name="db"></param>
         /// <returns></returns>
-        public static IEnumerable<Contact> GetDataFromViewListObject(List<Contact> db)
+        public static IEnumerable<Contact> GetDataFromListObject(List<Contact> db)
         {
             return db;
         }

@@ -6,7 +6,7 @@ namespace Project19.Controllers
     {
         public IActionResult Index()
         {
-            return View(Repository.GetDataFromViewListObject(Repository.db));
+            return View(Repository.GetDataFromListObject(Repository.db));
         }
 
         public IActionResult Details(int id)
